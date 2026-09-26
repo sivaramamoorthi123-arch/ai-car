@@ -1,0 +1,8 @@
+{
+  "name": "Remix AI Robot Car",
+  "description": "High-performance robotics control console for ESP32 robot cars featuring ultra-low latency WebSocket joystick driving, live telemetry, ESP32-CAM vision, and Gemini AI autonomous mission planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

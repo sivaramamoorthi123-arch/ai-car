@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AI Robot Car</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_control">Control</string>
+    <string name="nav_ai">AI Mission</string>
+    <string name="nav_camera">Vision</string>
+    <string name="nav_telemetry">Telemetry</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- General Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_demo">Demo Mode</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+    
+    <!-- Control Screen -->
+    <string name="control_title">Manual Control</string>
+    <string name="emergency_stop">STOP</string>
+    <string name="btn_forward">Forward</string>
+    <string name="btn_backward">Backward</string>
+    <string name="btn_left">Left</string>
+    <string name="btn_right">Right</string>
+    <string name="speed_label">Speed Limit</string>
+    <string name="camera_pip">Camera Feed</string>
+    <string name="joystick_hint">Drag joystick to steer</string>
+    
+    <!-- AI Screen -->
+    <string name="ai_title">AI Autonomous Mission</string>
+    <string name="ai_prompt_hint">Ask your robot… (e.g. Find table and approach)</string>
+    <string name="ai_speak_now">Listening… Speak your command</string>
+    <string name="ai_processing">Gemini analyzing intent…</string>
+    <string name="ai_cancel_mission">Cancel Mission</string>
+    <string name="ai_quick_suggestions">Quick Missions</string>
+    
+    <!-- Telemetry -->
+    <string name="telemetry_title">Robot Telemetry</string>
+    <string name="telemetry_battery">Battery (INA219)</string>
+    <string name="telemetry_obstacle">Obstacle Distance</string>
+    <string name="telemetry_motors">Motor Status</string>
+    <string name="telemetry_wifi">Wi-Fi Signal</string>
+    <string name="telemetry_latency">Round-trip Ping</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Robot Configuration</string>
+    <string name="settings_esp32_ip">ESP32 IP Address</string>
+    <string name="settings_ws_port">WebSocket Port</string>
+    <string name="settings_cam_url">ESP32-CAM Stream URL</string>
+    <string name="settings_demo_mode">Simulated Demo Mode</string>
+    <string name="settings_safety_timeout">Watchdog Timeout (ms)</string>
+    <string name="settings_min_distance">Safety Obstacle Distance (cm)</string>
+    <string name="settings_save">Save Settings</string>
+    <string name="settings_test_conn">Test Connection</string>
+</resources>
